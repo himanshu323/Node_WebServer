@@ -35,9 +35,9 @@ app.use((req,resp,next)=>{
 
 
 
-app.use((req,resp,next)=>{
-resp.render("maintenance.hbs");
-})
+// app.use((req,resp,next)=>{
+// resp.render("maintenance.hbs");
+// })
 
 app.use(express.static(__dirname +"/public"))
 
